@@ -8,6 +8,7 @@ import worksLogo from '../Assets/works-logo.png';
 import worksHardware from '../Assets/works-hardware.jpg';
 import worksIceCubeVedio from '../Assets/works-iceCubeVedio.PNG';
 import worksVedio from '../Assets/works-vedio.PNG';
+import dress from '../Assets/dress.png';
 
 function Works() {
   const [activeFilter, setActiveFilter] = useState('all');
@@ -56,7 +57,21 @@ function Works() {
       }
     },
     { 
-      title: 'App Design', 
+      title: 'Web Design', 
+      category: 'web', 
+      image: dress,
+      details: {
+        title: 'Website for Clothing Atelier',
+        description: 'A modern and user-friendly online dress shop designed to offer a seamless shopping experience. Features include an intuitive dress selection interface, easy add-to-cart functionality, and secure payment processing. Customers can track their order status in real-time, from processing to delivery, ensuring transparency and convenience. The platform streamlines the shopping journey, empowering users with effortless navigation, personalized recommendations, and efficient customer service.',
+        created: '8 September 2024',
+        technologies: 'Reactjs Microsoft SQL .net API',
+        role: 'Full stack developer',
+        view: 'https://github.com/Naveesha1/Dress-store'
+      }
+    },
+
+    { 
+      title: 'Web Design', 
       category: 'web', 
       image: worksCoffee,
       details: {

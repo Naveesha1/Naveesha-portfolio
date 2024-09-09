@@ -20,7 +20,7 @@ function Navbar() {
   return (
     <nav className={`navbar ${sticky ? 'sticky' : ''}`}>
       <div className="max-width">
-        <div className="logo"><a href="#"><span>Profa</span>lio.</a></div>
+        <div className="logo"><a href="#"><span>Profo</span>lio.</a></div>
         <ul className="menu">
           <li><a href="#home" className="menu-btn">Home</a></li>
           <li><a href="#about" className="menu-btn">About</a></li>
