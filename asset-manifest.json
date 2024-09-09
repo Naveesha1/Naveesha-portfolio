@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/Naveesha-portfolio/static/css/main.8584b009.css",
+    "main.js": "/Naveesha-portfolio/static/js/main.220d8160.js",
+    "static/media/works-vedio.PNG": "/Naveesha-portfolio/static/media/works-vedio.3409f899e8541e73b818.PNG",
+    "static/media/dress.png": "/Naveesha-portfolio/static/media/dress.8cf60e86a972f7b25571.png",
+    "static/media/works-iceCubeVedio.PNG": "/Naveesha-portfolio/static/media/works-iceCubeVedio.1eba7eae391e78e5732b.PNG",
+    "static/media/workCrm.png": "/Naveesha-portfolio/static/media/workCrm.a3840bbba186f60de4c1.png",
+    "static/media/my3.jpeg": "/Naveesha-portfolio/static/media/my3.d82781f0fab2f9c0e6f6.jpeg",
+    "static/media/my2.jpeg": "/Naveesha-portfolio/static/media/my2.69d0415a29540cb190ef.jpeg",
+    "static/media/works-hardware.jpg": "/Naveesha-portfolio/static/media/works-hardware.40d1ff6516c8ebb8d5d1.jpg",
+    "static/media/works-coffe.jpg": "/Naveesha-portfolio/static/media/works-coffe.e4c036d913b4d4fed0e2.jpg",
+    "static/media/works-logo.png": "/Naveesha-portfolio/static/media/works-logo.5886d7cd86af60fe09e4.png",
+    "static/media/bg.jpg": "/Naveesha-portfolio/static/media/bg.4fa0e27eb6d39d3b6530.jpg",
+    "index.html": "/Naveesha-portfolio/index.html",
+    "main.8584b009.css.map": "/Naveesha-portfolio/static/css/main.8584b009.css.map",
+    "main.220d8160.js.map": "/Naveesha-portfolio/static/js/main.220d8160.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8584b009.css",
+    "static/js/main.220d8160.js"
+  ]
+}
