@@ -1,10 +1,17 @@
 // src/components/About.js
-import React, { useState } from 'react';
-import my3 from '../Assets/my3.jpeg';
+import React, { useState, useEffect } from 'react';
 
 
 function About() {
     const [activeTab, setActiveTab] = useState('certification');
+    const [profile, setProfile] = useState({ bio: '', aboutPhoto: null });
+
+    useEffect(() => {
+        fetch('/api/profile')
+            .then((res) => res.json())
+            .then(setProfile)
+            .catch(() => {});
+    }, []);
 
     const tabContent = {
         certification: (
@@ -72,13 +79,10 @@ function About() {
                 <h2 className="title">About me</h2>
                 <div className="about-content">
                     <div className="column left">
-                        <img src={my3} alt="" />
+                        {profile.aboutPhoto && <img src={profile.aboutPhoto} alt="" />}
                     </div>
                     <div className="column right">
-                        <p>I am a passionate and driven software engineer eager to join a forward-thinking
-                            organization where I can leverage my technical skills and enthusiasm for continuous
-                            learning. My goal is to contribute to innovative software projects that drive technological
-                            advancement and business success while achieving personal and professional growth.</p>
+                        <p>{profile.bio}</p>
 
                         <div className="tabs-btn">
                             <span className={`tabs-btn ${activeTab === 'certification' ? 'tab-active' : ''}`}

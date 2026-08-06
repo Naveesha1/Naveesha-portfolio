@@ -1,15 +1,23 @@
 // src/components/Home.js
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import { ReactTyped as Typed } from 'react-typed';
-import my2 from '../Assets/my2.jpeg';
 
 function Home() {
+  const [profile, setProfile] = useState({ name: '', homePhoto: null });
+
+  useEffect(() => {
+    fetch('/api/profile')
+      .then((res) => res.json())
+      .then(setProfile)
+      .catch(() => {});
+  }, []);
+
   return (
     <section className="home" id="home">
       <div className="max-width">
         <div className="home-content">
           <div className="text-1">Hello, my name is</div>
-          <div className="text-2">Naveesha Kavindi</div>
+          <div className="text-2">{profile.name}</div>
           <div className="text-3">
             And I'm a <Typed
               strings={["Developer", "Undergraduate ", "Designer"]}
@@ -20,7 +28,9 @@ function Home() {
           </div>
           <a href="#contact">Contact Me</a>
         </div>
-        <div className="main-img"><img src={my2} alt="me" /></div>
+        <div className="main-img">
+          {profile.homePhoto && <img src={profile.homePhoto} alt={profile.name} />}
+        </div>
       </div>
     </section>
   );

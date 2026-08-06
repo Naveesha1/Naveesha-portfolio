@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>Portfolio Admin</title>
+<link rel="stylesheet" href="/admin/style.css" />
+</head>
+<body>
+  <header>
+    <h1>Portfolio Admin</h1>
+    <button id="logout-btn">Log out</button>
+  </header>
+
+  <main>
+    <section class="card">
+      <h2>Profile</h2>
+      <form id="profile-form">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" required />
+
+        <label for="bio">Bio</label>
+        <textarea id="bio" name="bio" required></textarea>
+
+        <label for="home-photo">Home Page Photo</label>
+        <img id="home-photo-preview" class="photo-preview hidden" alt="Home page photo" />
+        <input type="file" id="home-photo" name="homePhoto" accept="image/*" />
+
+        <label for="about-photo">About Page Photo</label>
+        <img id="about-photo-preview" class="photo-preview hidden" alt="About page photo" />
+        <input type="file" id="about-photo" name="aboutPhoto" accept="image/*" />
+
+        <div class="row" style="margin-top:16px;">
+          <button type="submit" class="btn btn-primary">Save profile</button>
+        </div>
+        <div id="profile-msg" class="msg hidden"></div>
+      </form>
+    </section>
+
+    <section class="card">
+      <h2 id="project-form-title">Add project</h2>
+      <form id="project-form">
+        <input type="hidden" id="project-id" value="" />
+
+        <label for="title">Title</label>
+        <input type="text" id="title" name="title" required />
+
+        <label for="description">Description</label>
+        <textarea id="description" name="description"></textarea>
+
+        <label for="link">Link</label>
+        <input type="url" id="link" name="link" placeholder="https://..." />
+
+        <label for="tags">Tags (comma separated)</label>
+        <input type="text" id="tags" name="tags" placeholder="web, react, api" />
+
+        <label for="image">Image</label>
+        <img id="project-image-preview" class="photo-preview hidden" alt="Project image" />
+        <input type="file" id="image" name="image" accept="image/*" />
+
+        <div class="row" style="margin-top:16px;">
+          <button type="submit" class="btn btn-primary" id="project-submit-btn">Add project</button>
+          <button type="button" class="btn btn-secondary hidden" id="project-cancel-btn">Cancel edit</button>
+        </div>
+        <div id="project-msg" class="msg hidden"></div>
+      </form>
+    </section>
+
+    <section class="card">
+      <h2>Projects</h2>
+      <ul class="project-list" id="project-list"></ul>
+    </section>
+  </main>
+
+  <script src="/admin/app.js"></script>
+</body>
+</html>
