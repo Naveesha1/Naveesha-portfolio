@@ -1,6 +1,7 @@
 {
   "name": "my-app",
   "version": "0.1.0",
+  "homepage": "https://naveesha1.github.io/Naveesha-portfolio",
   "private": true,
   "dependencies": {
     "@emailjs/browser": "^4.4.1",
