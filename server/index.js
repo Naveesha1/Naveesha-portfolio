@@ -34,7 +34,7 @@ app.use(
   })
 );
 
-app.use('/uploads', express.static(path.join(__dirname, 'uploads')));
+app.use('/uploads', express.static(process.env.UPLOADS_DIR || path.join(__dirname, 'uploads')));
 
 // Public content API consumed by the React site.
 app.use('/api', publicApi);

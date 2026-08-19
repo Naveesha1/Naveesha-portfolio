@@ -4,7 +4,7 @@ const crypto = require('crypto');
 const multer = require('multer');
 const sharp = require('sharp');
 
-const UPLOAD_DIR = path.join(__dirname, '..', 'uploads');
+const UPLOAD_DIR = process.env.UPLOADS_DIR || path.join(__dirname, '..', 'uploads');
 fs.mkdirSync(UPLOAD_DIR, { recursive: true });
 
 // Keep the upload in memory; we re-encode with sharp before writing to disk,
