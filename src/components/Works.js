@@ -2,19 +2,12 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { FaArrowRight, FaTimes } from 'react-icons/fa';
 import mixitup from 'mixitup';
+import projects from '../data/projects';
 
 function Works() {
-  const [projects, setProjects] = useState([]);
   const [activeFilter, setActiveFilter] = useState('all');
   const [selectedWork, setSelectedWork] = useState(null);
   const mixerRef = useRef(null);
-
-  useEffect(() => {
-    fetch('/api/projects')
-      .then((res) => res.json())
-      .then(setProjects)
-      .catch(() => {});
-  }, []);
 
   useEffect(() => {
     if (mixerRef.current) mixerRef.current.destroy();
@@ -26,7 +19,7 @@ function Works() {
     return () => {
       if (mixerRef.current) mixerRef.current.destroy();
     };
-  }, [projects]);
+  }, []);
 
   const tagClass = (tag) => tag.toLowerCase().replace(/[^a-z0-9]+/g, '-');
   const filters = ['all', ...new Set(projects.flatMap((p) => p.tags.map(tagClass)))];
