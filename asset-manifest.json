@@ -1,23 +1,26 @@
 {
   "files": {
-    "main.css": "/Naveesha-portfolio/static/css/main.8584b009.css",
-    "main.js": "/Naveesha-portfolio/static/js/main.cc1183f9.js",
+    "main.css": "/Naveesha-portfolio/static/css/main.fa5bdd3c.css",
+    "main.js": "/Naveesha-portfolio/static/js/main.be9f52f0.js",
+    "static/media/my3.jpg": "/Naveesha-portfolio/static/media/my3.a9613da5542a192dcab3.jpg",
+    "static/media/ResurantWeb.png": "/Naveesha-portfolio/static/media/ResurantWeb.6cae26f99d62bffe81bd.png",
+    "static/media/my5.png": "/Naveesha-portfolio/static/media/my5.7ec3895a0ff679c158c9.png",
     "static/media/works-vedio.PNG": "/Naveesha-portfolio/static/media/works-vedio.3409f899e8541e73b818.PNG",
+    "static/media/Makeup.png": "/Naveesha-portfolio/static/media/Makeup.e8f59b2fc4c5a280db17.png",
     "static/media/dress.png": "/Naveesha-portfolio/static/media/dress.8cf60e86a972f7b25571.png",
+    "static/media/InternNexus.png": "/Naveesha-portfolio/static/media/InternNexus.b755a187f6231584b9b7.png",
     "static/media/works-iceCubeVedio.PNG": "/Naveesha-portfolio/static/media/works-iceCubeVedio.1eba7eae391e78e5732b.PNG",
     "static/media/workCrm.png": "/Naveesha-portfolio/static/media/workCrm.a3840bbba186f60de4c1.png",
-    "static/media/my3.jpeg": "/Naveesha-portfolio/static/media/my3.d82781f0fab2f9c0e6f6.jpeg",
-    "static/media/my2.jpeg": "/Naveesha-portfolio/static/media/my2.69d0415a29540cb190ef.jpeg",
     "static/media/works-hardware.jpg": "/Naveesha-portfolio/static/media/works-hardware.40d1ff6516c8ebb8d5d1.jpg",
     "static/media/works-coffe.jpg": "/Naveesha-portfolio/static/media/works-coffe.e4c036d913b4d4fed0e2.jpg",
     "static/media/works-logo.png": "/Naveesha-portfolio/static/media/works-logo.5886d7cd86af60fe09e4.png",
     "static/media/bg.jpg": "/Naveesha-portfolio/static/media/bg.4fa0e27eb6d39d3b6530.jpg",
     "index.html": "/Naveesha-portfolio/index.html",
-    "main.8584b009.css.map": "/Naveesha-portfolio/static/css/main.8584b009.css.map",
-    "main.cc1183f9.js.map": "/Naveesha-portfolio/static/js/main.cc1183f9.js.map"
+    "main.fa5bdd3c.css.map": "/Naveesha-portfolio/static/css/main.fa5bdd3c.css.map",
+    "main.be9f52f0.js.map": "/Naveesha-portfolio/static/js/main.be9f52f0.js.map"
   },
   "entrypoints": [
-    "static/css/main.8584b009.css",
-    "static/js/main.cc1183f9.js"
+    "static/css/main.fa5bdd3c.css",
+    "static/js/main.be9f52f0.js"
   ]
 }
