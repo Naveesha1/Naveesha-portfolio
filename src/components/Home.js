@@ -1,7 +1,7 @@
 // src/components/Home.js
 import React from 'react';
 import { ReactTyped as Typed } from 'react-typed';
-import my2 from '../Assets/my2.jpeg';
+import my2 from '../Assets/my5.png';
 
 const NAME = 'Naveesha Kavindi';
 

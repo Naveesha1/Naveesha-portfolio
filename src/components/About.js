@@ -1,6 +1,6 @@
 // src/components/About.js
 import React, { useState } from 'react';
-import my3 from '../Assets/my3.jpeg';
+import my3 from '../Assets/my3.jpg';
 
 const BIO =
     "I am a passionate and driven software engineer eager to join a forward-thinking " +
@@ -17,6 +17,18 @@ function About() {
                 <p className="tabs-description">
                     <span>Full Stack React Bootcamp with .NET API [2024] [10 Projects</span> - Udemy
                     <span>2024</span>
+                </p>
+                <p class="tabs-description">
+                    <span>International Conference on Business Research</span> - University of Moratuwa
+                    <span>2025</span>
+                </p>
+                 <p className="tabs-description">
+                    <span>ModelX competition at FestX 5.0</span> - IEEE 
+                    <span>2025</span>
+                </p>
+                <p className="tabs-description">
+                    <span>GENESIZ '24 competition</span> - ERIC KDU 
+                    <span>2025</span>
                 </p>
                 <p className="tabs-description">
                     <span>Business Analysis Fundamentals</span> - Alison
@@ -38,6 +50,10 @@ function About() {
         ),
         experience: (
             <div className="tabs-data grid">
+                 <p className="tabs-description">
+                    <span>Internship Experience</span> - Whale Claude pvt.Ltd
+                    <span>6 months</span>
+                </p>
                 <p className="tabs-description">
                     <span>Training Experience at Bank</span> - People's Bank
                     <span>6 months</span>

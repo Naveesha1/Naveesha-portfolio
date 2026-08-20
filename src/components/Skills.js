@@ -3,8 +3,8 @@ import React from 'react';
 
 function Skills() {
   const skills = [
-    { name: 'HTML', percentage: 90 },
-    { name: 'CSS', percentage: 80 },
+    { name: 'Python', percentage: 80 },
+    { name: 'C', percentage: 83 },
     { name: 'JavaScript', percentage: 85 },
     { name: 'PHP', percentage: 60 },
     { name: 'React', percentage: 90 },

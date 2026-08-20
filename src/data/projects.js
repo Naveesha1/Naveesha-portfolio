@@ -5,6 +5,9 @@ import worksLogo from '../Assets/works-logo.png';
 import worksHardware from '../Assets/works-hardware.jpg';
 import worksIceCubeVedio from '../Assets/works-iceCubeVedio.PNG';
 import worksVedio from '../Assets/works-vedio.PNG';
+import worksInternship from '../Assets/InternNexus.png';
+import worksBeauty from '../Assets/Makeup.png';
+import weRestaurant from '../Assets/ResurantWeb.png';
 
 const projects = [
   {
@@ -69,6 +72,33 @@ const projects = [
     image: worksVedio,
     link: 'https://drive.google.com/file/d/188llgm3HgE_A0fvChCoiHVbkY8WExePL/view?usp=sharing',
     tags: ['graphic'],
+  },
+    {
+    id: 8,
+    title: 'Internship Nexus: Comprehensive Application and Management System',
+    description:
+      ' Designed and developed a centralized Internship Application System to streamline the internship process for students, employers, and faculty. The system enables students to find and apply for internships, track applications, receive recommendations and notifications, while allowing employers to manage opportunities, applications, and mentors. Built using MongoDB, Express.js, React.js, Node.js, Firebase, Git, and GitHub.',
+    image: worksInternship,
+    link: 'https://github.com/Naveesha1/Internship-Platform---Frontend',
+    tags: ['web'],
+  },
+      {
+    id: 9,
+    title: 'AI-Based Personalized Beauty Recommendation and Guidance System Using Facial Feature and Skin Tone Analysis',
+    description:
+      'Developed an AI-powered makeup recommendation system that analyzes facial features and skin characteristics to provide personalized beauty recommendations. The system includes facial feature and skin tone analysis, personalized makeup product and style recommendations, and intelligent makeup application guidance with quality evaluation. It uses MediaPipe FaceMesh, OpenCV, TensorFlow Lite, machine learning, reinforcement learning, and RAG-based retrieval to deliver personalized recommendations and improve makeup application outcomes.',
+    image: worksBeauty,
+    link: 'https://github.com/Naveesha1/auraforge-mobile-app',
+    tags: ['Mobile'],
+  },
+        {
+    id: 10,
+    title: 'Transforming Restaurant Management with Smart QR Technology',
+    description:
+    'Developed a QR-based digital restaurant management system to streamline ordering, payments, and restaurant operations. The system provides digital menus, direct order placement, cashless payments, live order tracking, and real-time analytics to improve efficiency and customer experience. Built using React.js, Nest.js, MySQL, Stripe, and Git, with a focus on creating a modern, user-friendly, and cost-effective dining solution.',
+    image: weRestaurant,
+    link: 'https://github.com/Naveesha1/QRbaseResturant-frontend',
+    tags: ['Mobile'],
   },
 ];
 

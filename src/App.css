@@ -139,13 +139,12 @@ section .title::after{
 .home{
     display: flex;
     background: url("Assets/bg.jpg") no-repeat center;
-    height: auto;
+    min-height: 100vh;
     color: #fff;
-    min-height: 50%;
     background-size: cover;
     background-attachment: fixed;
     font-family: 'Ubuntu', sans-serif;
-    
+
 }
 .home .max-width{
   width: 100%;
@@ -158,7 +157,7 @@ section .title::after{
 }
 
 .home .main-img{
-    width: 50%;
+    width: 70%;
     height: auto;
     display: flex;
     justify-content: flex-end;
@@ -168,7 +167,6 @@ section .title::after{
 .home .main-img img{
     max-width: 100%;
     height: auto;
-    border-radius: .75rem;
 }
 
 .home .home-content{
@@ -438,11 +436,11 @@ section .title::after{
   top: 0;
   background: crimson;
 }
-.skills-content .right .html::before {
-  width: 90%;
-}
-.skills-content .right .css::before {
+.skills-content .right .python::before {
   width: 80%;
+}
+.skills-content .right .c::before {
+  width: 83%;
 }
 .skills-content .right .javascript::before {
   width: 85%;
