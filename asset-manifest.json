@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Naveesha-portfolio/static/css/main.fa5bdd3c.css",
-    "main.js": "/Naveesha-portfolio/static/js/main.be9f52f0.js",
+    "main.css": "/Naveesha-portfolio/static/css/main.a8f85b18.css",
+    "main.js": "/Naveesha-portfolio/static/js/main.4497746d.js",
     "static/media/my3.jpg": "/Naveesha-portfolio/static/media/my3.a9613da5542a192dcab3.jpg",
     "static/media/ResurantWeb.png": "/Naveesha-portfolio/static/media/ResurantWeb.6cae26f99d62bffe81bd.png",
     "static/media/my5.png": "/Naveesha-portfolio/static/media/my5.7ec3895a0ff679c158c9.png",
@@ -16,11 +16,11 @@
     "static/media/works-logo.png": "/Naveesha-portfolio/static/media/works-logo.5886d7cd86af60fe09e4.png",
     "static/media/bg.jpg": "/Naveesha-portfolio/static/media/bg.4fa0e27eb6d39d3b6530.jpg",
     "index.html": "/Naveesha-portfolio/index.html",
-    "main.fa5bdd3c.css.map": "/Naveesha-portfolio/static/css/main.fa5bdd3c.css.map",
-    "main.be9f52f0.js.map": "/Naveesha-portfolio/static/js/main.be9f52f0.js.map"
+    "main.a8f85b18.css.map": "/Naveesha-portfolio/static/css/main.a8f85b18.css.map",
+    "main.4497746d.js.map": "/Naveesha-portfolio/static/js/main.4497746d.js.map"
   },
   "entrypoints": [
-    "static/css/main.fa5bdd3c.css",
-    "static/js/main.be9f52f0.js"
+    "static/css/main.a8f85b18.css",
+    "static/js/main.4497746d.js"
   ]
 }
