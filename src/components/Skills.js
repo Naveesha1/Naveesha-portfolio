@@ -8,7 +8,7 @@ function Skills() {
     { name: 'JavaScript', percentage: 85 },
     { name: 'PHP', percentage: 60 },
     { name: 'React', percentage: 90 },
-    { name: 'MySQL', percentage: 75 },
+    { name: 'MySQL', percentage: 93 },
   ];
 
   return (
@@ -24,7 +24,7 @@ function Skills() {
                personal and professional growth drives me to stay updated with industry trends and continuously improve.
             </p>
             <br />
-            <a href="https://drive.google.com/file/d/1ahY0N0_kE8LumDl6uJWX8UW88d3k79BA/view?usp=sharing">See more</a>
+            <a href="https://drive.google.com/file/d/1qYKmUx2QWrI3OCbDLpQlumoe7Z-r9JLf/view?usp=sharing">See more</a>
           </div>
           <div className="column right">
             {skills.map((skill, index) => (
